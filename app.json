@@ -25,15 +25,9 @@
     "TELEGRAM_STRING_SESSION": {
       "description": "Get this value by running [python3 string_session.py] in Termux or heroku[IMPORTANT]"    
     },
-    "HEROKU_APIKEY": {
-      "description": "very important for !update command to make javes up-to-date , get it from 'https://dashboard.heroku.com/account.",
-      "value": ""   
-      "required": false
-    },
     "HEROKU_APPNAME": {
       "description": "enter this app name agin here, very inportant for !update comand to make javes up-to-date ,",
       "value": ""
-      "required": false
       
      },
     "GENIUS_API_TOKEN": {
