@@ -16,11 +16,11 @@
   "env": {
     "TELEGRAM_API_KEY": {
       "description": "Get this value from my.telegram.org.[IMPORTANT]",
-      "value": "1754367"
+      "value": ""
     },
     "TELEGRAM_API_HASH": {
       "description": "Get this value from my.telegram.org.[IMPORTANT]",
-      "value": "231b8cc6cca12ee51a85cf543321f476"
+      "value": ""
     },
     "TELEGRAM_STRING_SESSION": {
       "description": "Get this value by running [python3 string_session.py] in Termux or heroku[IMPORTANT]"    
@@ -28,10 +28,12 @@
     "HEROKU_APIKEY": {
       "description": "very important for !update command to make javes up-to-date , get it from 'https://dashboard.heroku.com/account.",
       "value": ""   
+      "required": false
     },
     "HEROKU_APPNAME": {
       "description": "enter this app name agin here, very inportant for !update comand to make javes up-to-date ,",
       "value": ""
+      "required": false
       
      },
     "GENIUS_API_TOKEN": {
@@ -147,7 +149,7 @@
       },
     "JAVES_NAME": {
       "description": "You can edit bot's name",
-      "value": "Javes ",
+      "value": "Tera Baap",
       "required": false
     
     },
@@ -180,7 +182,7 @@
     },
     "YOUR_SHORT_NAME": {
       "description": "Name to show in !javes message!",
-      "value": "your name",
+      "value": "Tera Baap",
       "required": true
       },
     "LYDIA_API_KEY": {
