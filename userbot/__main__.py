@@ -6,7 +6,7 @@ from importlib import import_module
 
 
 #####################################
-plugin_channel = "@pldhsys"  #this is official plugin channel for javes 
+plugin_channel = "@javes_mod"  #this is official plugin channel for javes 
 #####################################
 
 
